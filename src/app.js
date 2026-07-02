@@ -123,6 +123,10 @@ fetch('data/sprites.json')
   .then((data) => {
     sprites = data;
     render();
+  })
+  .catch((err) => {
+    els.groups.textContent = 'Nepodařilo se načíst data spritů. Zkontroluj připojení a zkus to znovu.';
+    console.error('Failed to load data/sprites.json', err);
   });
 
 if ('serviceWorker' in navigator) {
