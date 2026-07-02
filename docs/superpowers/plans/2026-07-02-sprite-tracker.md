@@ -102,8 +102,10 @@ cp "/Users/jirikucera/Downloads/Fortnite Sprites - Fortnite.GG.html" "data/raw/f
 
 - [ ] **Step 2: Verify it contains sprite cards**
 
+The saved file is minified to a single line, so `grep -c` (which counts matching *lines*) would misleadingly report `1`. Count occurrences instead:
+
 ```bash
-grep -c "class='sprite-card'" data/raw/fortnite-sprites-source.html
+grep -o "class='sprite-card'" data/raw/fortnite-sprites-source.html | wc -l
 ```
 
 Expected: `82`
