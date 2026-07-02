@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sprite Tracker</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Sprite Tracker">
+<meta name="theme-color" content="#15171c">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Sprite Tracker</h1>
+  <div class="controls-row">
+    <input id="search" type="text" placeholder="Hledat sprita" autocomplete="off">
+    <select id="rarity-filter">
+      <option value="">Všechny rarity</option>
+      <option value="rare">Rare</option>
+      <option value="epic">Epic</option>
+      <option value="legendary">Legendary</option>
+      <option value="mythic">Mythic</option>
+      <option value="special">Special</option>
+    </select>
+  </div>
+  <div class="controls-row controls-row-between">
+    <label class="checkbox-label"><input id="missing-only" type="checkbox"> Jen chybějící</label>
+    <span id="progress-text">0 / 0 nasbíráno</span>
+  </div>
+  <div class="progress-bar"><div id="progress-fill"></div></div>
+</header>
+<main id="sprite-groups"></main>
+<footer>
+  <button id="export-btn" type="button">Export zálohy</button>
+  <button id="import-btn" type="button">Import zálohy</button>
+  <input id="import-file" type="file" accept="application/json" hidden>
+</footer>
+<script type="module" src="src/app.js"></script>
+</body>
+</html>
