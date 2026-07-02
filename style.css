@@ -6,10 +6,13 @@
   --text: #e6e8ec;
   --text-muted: #a9adb8;
   --owned: #1D9E75;
+  --owned-contrast: #04342C;
+  --owned-border: rgba(29, 158, 117, 0.35);
   --rare: #85B7EB;
   --epic: #7F77DD;
   --legendary: #EF9F27;
   --mythic: #D4537E;
+  --mythic-contrast: #3D0F1F;
   --special: #b4b2a9;
 }
 
@@ -109,7 +112,7 @@ main h2 {
 }
 
 .sprite-card.owned {
-  border-color: rgba(47, 119, 193, 0.3);
+  border-color: var(--owned-border);
   opacity: 1;
 }
 
@@ -136,7 +139,7 @@ main h2 {
 .rarity-rare { background: var(--rare); }
 .rarity-epic { background: var(--epic); }
 .rarity-legendary { background: var(--legendary); }
-.rarity-mythic { background: var(--mythic); }
+.rarity-mythic { background: var(--mythic); color: var(--mythic-contrast); }
 .rarity-special { background: var(--special); }
 
 .chance { color: var(--text-muted); }
@@ -150,7 +153,7 @@ main h2 {
   height: 16px;
   border-radius: 50%;
   background: var(--owned);
-  color: #04342C;
+  color: var(--owned-contrast);
   font-size: 10px;
   line-height: 16px;
   text-align: center;
