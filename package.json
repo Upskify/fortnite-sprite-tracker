@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "test": "node --test tests/",
+    "test": "node --test tests/**/*.test.js",
     "build:data": "node scripts/build-sprites-data.js",
     "serve": "python3 -m http.server 8080"
   }
