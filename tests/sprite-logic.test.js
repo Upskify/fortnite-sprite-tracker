@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {
   groupByFamily,
   filterSprites,
+  listVariants,
   computeProgress,
   serializeBackup,
   parseBackup,
@@ -29,6 +30,20 @@ test('filterSprites filters by case-insensitive name query', () => {
 test('filterSprites filters by rarity', () => {
   const result = filterSprites(sprites, { rarity: 'special' });
   assert.deepEqual(result.map((s) => s.id), ['4']);
+});
+
+test('filterSprites filters by variant', () => {
+  const result = filterSprites(sprites, { variant: 'gold' });
+  assert.deepEqual(result.map((s) => s.id), ['4']);
+});
+
+test('filterSprites combines variant with missingOnly', () => {
+  const result = filterSprites(sprites, { variant: 'base', missingOnly: true, ownedIds: new Set(['1']) });
+  assert.deepEqual(result.map((s) => s.id), ['5']);
+});
+
+test('listVariants returns distinct variants in first-seen order', () => {
+  assert.deepEqual(listVariants(sprites), ['base', 'gold']);
 });
 
 test('filterSprites missingOnly excludes owned ids', () => {

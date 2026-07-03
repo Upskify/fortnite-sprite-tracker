@@ -11,14 +11,27 @@ export function groupByFamily(sprites) {
   return order.map((family) => ({ family, items: byFamily.get(family) }));
 }
 
-export function filterSprites(sprites, { query = '', rarity = '', missingOnly = false, ownedIds = new Set() } = {}) {
+export function filterSprites(sprites, { query = '', rarity = '', variant = '', missingOnly = false, ownedIds = new Set() } = {}) {
   const normalizedQuery = query.trim().toLowerCase();
   return sprites.filter((sprite) => {
     if (normalizedQuery && !sprite.name.toLowerCase().includes(normalizedQuery)) return false;
     if (rarity && sprite.rarity !== rarity) return false;
+    if (variant && sprite.variant !== variant) return false;
     if (missingOnly && ownedIds.has(sprite.id)) return false;
     return true;
   });
+}
+
+export function listVariants(sprites) {
+  const seen = new Set();
+  const order = [];
+  for (const sprite of sprites) {
+    if (!seen.has(sprite.variant)) {
+      seen.add(sprite.variant);
+      order.push(sprite.variant);
+    }
+  }
+  return order;
 }
 
 export function computeProgress(sprites, ownedIds) {

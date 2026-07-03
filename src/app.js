@@ -1,5 +1,5 @@
 // src/app.js
-import { groupByFamily, filterSprites, computeProgress, serializeBackup, parseBackup } from './sprite-logic.js';
+import { groupByFamily, filterSprites, listVariants, computeProgress, serializeBackup, parseBackup } from './sprite-logic.js';
 
 const STORAGE_KEY = 'sprite-tracker:owned';
 
@@ -22,6 +22,7 @@ let ownedIds = loadOwnedIds();
 const els = {
   search: document.getElementById('search'),
   rarity: document.getElementById('rarity-filter'),
+  variant: document.getElementById('variant-filter'),
   missingOnly: document.getElementById('missing-only'),
   groups: document.getElementById('sprite-groups'),
   progressText: document.getElementById('progress-text'),
@@ -31,10 +32,20 @@ const els = {
   importFile: document.getElementById('import-file'),
 };
 
+function populateVariantFilter() {
+  for (const variant of listVariants(sprites)) {
+    const option = document.createElement('option');
+    option.value = variant;
+    option.textContent = variant.charAt(0).toUpperCase() + variant.slice(1);
+    els.variant.appendChild(option);
+  }
+}
+
 function render() {
   const filtered = filterSprites(sprites, {
     query: els.search.value,
     rarity: els.rarity.value,
+    variant: els.variant.value,
     missingOnly: els.missingOnly.checked,
     ownedIds,
   });
@@ -109,6 +120,7 @@ function importBackup(file) {
 
 els.search.addEventListener('input', render);
 els.rarity.addEventListener('change', render);
+els.variant.addEventListener('change', render);
 els.missingOnly.addEventListener('change', render);
 els.exportBtn.addEventListener('click', exportBackup);
 els.importBtn.addEventListener('click', () => els.importFile.click());
@@ -122,6 +134,7 @@ fetch('data/sprites.json')
   .then((res) => res.json())
   .then((data) => {
     sprites = data;
+    populateVariantFilter();
     render();
   })
   .catch((err) => {
