@@ -1,17 +1,97 @@
 [
   {
+    "id": "139",
+    "name": "Batman",
+    "family": "Batman",
+    "variant": "base",
+    "rarity": "mythic",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/139.webp"
+  },
+  {
+    "id": "140",
+    "name": "Gold Batman",
+    "family": "Batman",
+    "variant": "gold",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/140.webp"
+  },
+  {
+    "id": "141",
+    "name": "Gummy Batman",
+    "family": "Batman",
+    "variant": "candy",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/141.webp"
+  },
+  {
+    "id": "142",
+    "name": "Galaxy Batman",
+    "family": "Batman",
+    "variant": "galaxy",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/142.webp"
+  },
+  {
+    "id": "143",
+    "name": "Gem Batman",
+    "family": "Batman",
+    "variant": "gem",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/143.webp"
+  },
+  {
+    "id": "145",
+    "name": "Holofoil Batman",
+    "family": "Batman",
+    "variant": "holofoil",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/145.webp"
+  },
+  {
+    "id": "146",
+    "name": "Cube Batman",
+    "family": "Batman",
+    "variant": "cube",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/146.webp"
+  },
+  {
+    "id": "147",
+    "name": "Quack Batman",
+    "family": "Batman",
+    "variant": "quack",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/147.webp"
+  },
+  {
     "id": "1",
-    "name": "Water Sprite",
+    "name": "Water",
     "family": "Water",
     "variant": "base",
     "rarity": "rare",
     "chancePercent": 12.83,
-    "isStarter": true,
+    "isStarter": false,
     "image": "assets/sprites/1.webp"
   },
   {
     "id": "4",
-    "name": "Gold Water Sprite",
+    "name": "Gold Water",
     "family": "Water",
     "variant": "gold",
     "rarity": "special",
@@ -21,7 +101,7 @@
   },
   {
     "id": "2",
-    "name": "Gummy Water Sprite",
+    "name": "Gummy Water",
     "family": "Water",
     "variant": "candy",
     "rarity": "special",
@@ -31,7 +111,7 @@
   },
   {
     "id": "3",
-    "name": "Galaxy Water Sprite",
+    "name": "Galaxy Water",
     "family": "Water",
     "variant": "galaxy",
     "rarity": "special",
@@ -41,7 +121,7 @@
   },
   {
     "id": "76",
-    "name": "Gem Water Sprite",
+    "name": "Gem Water",
     "family": "Water",
     "variant": "gem",
     "rarity": "special",
@@ -51,7 +131,7 @@
   },
   {
     "id": "43",
-    "name": "Holofoil Water Sprite",
+    "name": "Holofoil Water",
     "family": "Water",
     "variant": "holofoil",
     "rarity": "special",
@@ -60,18 +140,38 @@
     "image": "assets/sprites/43.webp"
   },
   {
+    "id": "83",
+    "name": "Cube Water",
+    "family": "Water",
+    "variant": "cube",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/83.webp"
+  },
+  {
+    "id": "84",
+    "name": "Quack Water",
+    "family": "Water",
+    "variant": "quack",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/84.webp"
+  },
+  {
     "id": "5",
-    "name": "Earth Sprite",
+    "name": "Earth",
     "family": "Earth",
     "variant": "base",
     "rarity": "rare",
     "chancePercent": 12.83,
-    "isStarter": true,
+    "isStarter": false,
     "image": "assets/sprites/5.webp"
   },
   {
     "id": "8",
-    "name": "Gold Earth Sprite",
+    "name": "Gold Earth",
     "family": "Earth",
     "variant": "gold",
     "rarity": "special",
@@ -81,7 +181,7 @@
   },
   {
     "id": "6",
-    "name": "Gummy Earth Sprite",
+    "name": "Gummy Earth",
     "family": "Earth",
     "variant": "candy",
     "rarity": "special",
@@ -91,7 +191,7 @@
   },
   {
     "id": "7",
-    "name": "Galaxy Earth Sprite",
+    "name": "Galaxy Earth",
     "family": "Earth",
     "variant": "galaxy",
     "rarity": "special",
@@ -101,7 +201,7 @@
   },
   {
     "id": "45",
-    "name": "Gem Earth Sprite",
+    "name": "Gem Earth",
     "family": "Earth",
     "variant": "gem",
     "rarity": "special",
@@ -110,18 +210,48 @@
     "image": "assets/sprites/45.webp"
   },
   {
+    "id": "85",
+    "name": "Holofoil Earth",
+    "family": "Earth",
+    "variant": "holofoil",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/85.webp"
+  },
+  {
+    "id": "86",
+    "name": "Cube Earth",
+    "family": "Earth",
+    "variant": "cube",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/86.webp"
+  },
+  {
+    "id": "87",
+    "name": "Quack Earth",
+    "family": "Earth",
+    "variant": "quack",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/87.webp"
+  },
+  {
     "id": "9",
-    "name": "Fire Sprite",
+    "name": "Fire",
     "family": "Spitfire",
     "variant": "base",
     "rarity": "rare",
     "chancePercent": 12.45,
-    "isStarter": true,
+    "isStarter": false,
     "image": "assets/sprites/9.webp"
   },
   {
     "id": "12",
-    "name": "Gold Fire Sprite",
+    "name": "Gold Fire",
     "family": "Spitfire",
     "variant": "gold",
     "rarity": "special",
@@ -131,7 +261,7 @@
   },
   {
     "id": "10",
-    "name": "Gummy Fire Sprite",
+    "name": "Gummy Fire",
     "family": "Spitfire",
     "variant": "candy",
     "rarity": "special",
@@ -141,7 +271,7 @@
   },
   {
     "id": "11",
-    "name": "Galaxy Fire Sprite",
+    "name": "Galaxy Fire",
     "family": "Spitfire",
     "variant": "galaxy",
     "rarity": "special",
@@ -150,8 +280,18 @@
     "image": "assets/sprites/11.webp"
   },
   {
+    "id": "88",
+    "name": "Gem Fire",
+    "family": "Spitfire",
+    "variant": "gem",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/88.webp"
+  },
+  {
     "id": "46",
-    "name": "Holofoil Fire Sprite",
+    "name": "Holofoil Fire",
     "family": "Spitfire",
     "variant": "holofoil",
     "rarity": "special",
@@ -160,8 +300,28 @@
     "image": "assets/sprites/46.webp"
   },
   {
+    "id": "89",
+    "name": "Cube Fire",
+    "family": "Spitfire",
+    "variant": "cube",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/89.webp"
+  },
+  {
+    "id": "90",
+    "name": "Quack Fire",
+    "family": "Spitfire",
+    "variant": "quack",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/90.webp"
+  },
+  {
     "id": "13",
-    "name": "Duck Sprite",
+    "name": "Duck",
     "family": "Duck",
     "variant": "base",
     "rarity": "epic",
@@ -171,7 +331,7 @@
   },
   {
     "id": "16",
-    "name": "Gold Duck Sprite",
+    "name": "Gold Duck",
     "family": "Duck",
     "variant": "gold",
     "rarity": "special",
@@ -181,7 +341,7 @@
   },
   {
     "id": "14",
-    "name": "Gummy Duck Sprite",
+    "name": "Gummy Duck",
     "family": "Duck",
     "variant": "candy",
     "rarity": "special",
@@ -191,7 +351,7 @@
   },
   {
     "id": "15",
-    "name": "Galaxy Duck Sprite",
+    "name": "Galaxy Duck",
     "family": "Duck",
     "variant": "galaxy",
     "rarity": "special",
@@ -201,7 +361,7 @@
   },
   {
     "id": "44",
-    "name": "Gem Duck Sprite",
+    "name": "Gem Duck",
     "family": "Duck",
     "variant": "gem",
     "rarity": "special",
@@ -210,8 +370,38 @@
     "image": "assets/sprites/44.webp"
   },
   {
+    "id": "91",
+    "name": "Holofoil Duck",
+    "family": "Duck",
+    "variant": "holofoil",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/91.webp"
+  },
+  {
+    "id": "92",
+    "name": "Cube Duck",
+    "family": "Duck",
+    "variant": "cube",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/92.webp"
+  },
+  {
+    "id": "93",
+    "name": "Quack Duck",
+    "family": "Duck",
+    "variant": "quack",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/93.webp"
+  },
+  {
     "id": "17",
-    "name": "Ghost Sprite",
+    "name": "Ghost",
     "family": "Ghost",
     "variant": "base",
     "rarity": "epic",
@@ -221,7 +411,7 @@
   },
   {
     "id": "20",
-    "name": "Gold Ghost Sprite",
+    "name": "Gold Ghost",
     "family": "Ghost",
     "variant": "gold",
     "rarity": "special",
@@ -231,7 +421,7 @@
   },
   {
     "id": "18",
-    "name": "Gummy Ghost Sprite",
+    "name": "Gummy Ghost",
     "family": "Ghost",
     "variant": "candy",
     "rarity": "special",
@@ -241,7 +431,7 @@
   },
   {
     "id": "19",
-    "name": "Galaxy Ghost Sprite",
+    "name": "Galaxy Ghost",
     "family": "Ghost",
     "variant": "galaxy",
     "rarity": "special",
@@ -250,8 +440,18 @@
     "image": "assets/sprites/19.webp"
   },
   {
+    "id": "94",
+    "name": "Gem Ghost",
+    "family": "Ghost",
+    "variant": "gem",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/94.webp"
+  },
+  {
     "id": "48",
-    "name": "Holofoil Ghost Sprite",
+    "name": "Holofoil Ghost",
     "family": "Ghost",
     "variant": "holofoil",
     "rarity": "special",
@@ -260,8 +460,28 @@
     "image": "assets/sprites/48.webp"
   },
   {
+    "id": "95",
+    "name": "Cube Ghost",
+    "family": "Ghost",
+    "variant": "cube",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/95.webp"
+  },
+  {
+    "id": "96",
+    "name": "Quack Ghost",
+    "family": "Ghost",
+    "variant": "quack",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/96.webp"
+  },
+  {
     "id": "21",
-    "name": "Dream Sprite",
+    "name": "Dream",
     "family": "Sleepy",
     "variant": "base",
     "rarity": "legendary",
@@ -271,7 +491,7 @@
   },
   {
     "id": "24",
-    "name": "Gold Dream Sprite",
+    "name": "Gold Dream",
     "family": "Sleepy",
     "variant": "gold",
     "rarity": "special",
@@ -281,7 +501,7 @@
   },
   {
     "id": "22",
-    "name": "Gummy Dream Sprite",
+    "name": "Gummy Dream",
     "family": "Sleepy",
     "variant": "candy",
     "rarity": "special",
@@ -291,7 +511,7 @@
   },
   {
     "id": "23",
-    "name": "Galaxy Dream Sprite",
+    "name": "Galaxy Dream",
     "family": "Sleepy",
     "variant": "galaxy",
     "rarity": "special",
@@ -300,8 +520,48 @@
     "image": "assets/sprites/23.webp"
   },
   {
+    "id": "97",
+    "name": "Gem Dream",
+    "family": "Sleepy",
+    "variant": "gem",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/97.webp"
+  },
+  {
+    "id": "98",
+    "name": "Holofoil Dream",
+    "family": "Sleepy",
+    "variant": "holofoil",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/98.webp"
+  },
+  {
+    "id": "99",
+    "name": "Cube Dream",
+    "family": "Sleepy",
+    "variant": "cube",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/99.webp"
+  },
+  {
+    "id": "100",
+    "name": "Quack Dream",
+    "family": "Sleepy",
+    "variant": "quack",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/100.webp"
+  },
+  {
     "id": "37",
-    "name": "Demon Sprite",
+    "name": "Demon",
     "family": "Demon",
     "variant": "base",
     "rarity": "epic",
@@ -311,7 +571,7 @@
   },
   {
     "id": "40",
-    "name": "Gold Demon Sprite",
+    "name": "Gold Demon",
     "family": "Demon",
     "variant": "gold",
     "rarity": "special",
@@ -321,7 +581,7 @@
   },
   {
     "id": "38",
-    "name": "Gummy Demon Sprite",
+    "name": "Gummy Demon",
     "family": "Demon",
     "variant": "candy",
     "rarity": "special",
@@ -331,17 +591,17 @@
   },
   {
     "id": "39",
-    "name": "Galaxy Demon Sprite",
+    "name": "Galaxy Demon",
     "family": "Demon",
     "variant": "galaxy",
     "rarity": "special",
-    "chancePercent": 0,
+    "chancePercent": 0.02,
     "isStarter": false,
     "image": "assets/sprites/39.webp"
   },
   {
     "id": "47",
-    "name": "Gem Demon Sprite",
+    "name": "Gem Demon",
     "family": "Demon",
     "variant": "gem",
     "rarity": "special",
@@ -350,8 +610,38 @@
     "image": "assets/sprites/47.webp"
   },
   {
+    "id": "101",
+    "name": "Holofoil Demon",
+    "family": "Demon",
+    "variant": "holofoil",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/101.webp"
+  },
+  {
+    "id": "102",
+    "name": "Cube Demon",
+    "family": "Demon",
+    "variant": "cube",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/102.webp"
+  },
+  {
+    "id": "103",
+    "name": "Quack Demon",
+    "family": "Demon",
+    "variant": "quack",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/103.webp"
+  },
+  {
     "id": "25",
-    "name": "Punk Sprite",
+    "name": "Punk",
     "family": "Punk",
     "variant": "base",
     "rarity": "legendary",
@@ -361,7 +651,7 @@
   },
   {
     "id": "28",
-    "name": "Gold Punk Sprite",
+    "name": "Gold Punk",
     "family": "Punk",
     "variant": "gold",
     "rarity": "special",
@@ -371,7 +661,7 @@
   },
   {
     "id": "26",
-    "name": "Gummy Punk Sprite",
+    "name": "Gummy Punk",
     "family": "Punk",
     "variant": "candy",
     "rarity": "special",
@@ -381,17 +671,57 @@
   },
   {
     "id": "27",
-    "name": "Galaxy Punk Sprite",
+    "name": "Galaxy Punk",
     "family": "Punk",
     "variant": "galaxy",
     "rarity": "special",
-    "chancePercent": 0,
+    "chancePercent": 0.01,
     "isStarter": false,
     "image": "assets/sprites/27.webp"
   },
   {
+    "id": "104",
+    "name": "Gem Punk",
+    "family": "Punk",
+    "variant": "gem",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/104.webp"
+  },
+  {
+    "id": "105",
+    "name": "Holofoil Punk",
+    "family": "Punk",
+    "variant": "holofoil",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/105.webp"
+  },
+  {
+    "id": "106",
+    "name": "Cube Punk",
+    "family": "Punk",
+    "variant": "cube",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/106.webp"
+  },
+  {
+    "id": "107",
+    "name": "Quack Punk",
+    "family": "Punk",
+    "variant": "quack",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/107.webp"
+  },
+  {
     "id": "29",
-    "name": "King Sprite",
+    "name": "King",
     "family": "King",
     "variant": "base",
     "rarity": "epic",
@@ -401,7 +731,7 @@
   },
   {
     "id": "32",
-    "name": "Gold King Sprite",
+    "name": "Gold King",
     "family": "King",
     "variant": "gold",
     "rarity": "special",
@@ -411,7 +741,7 @@
   },
   {
     "id": "30",
-    "name": "Gummy King Sprite",
+    "name": "Gummy King",
     "family": "King",
     "variant": "candy",
     "rarity": "special",
@@ -421,7 +751,7 @@
   },
   {
     "id": "31",
-    "name": "Galaxy King Sprite",
+    "name": "Galaxy King",
     "family": "King",
     "variant": "galaxy",
     "rarity": "special",
@@ -430,14 +760,64 @@
     "image": "assets/sprites/31.webp"
   },
   {
+    "id": "108",
+    "name": "Gem King",
+    "family": "King",
+    "variant": "gem",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/108.webp"
+  },
+  {
     "id": "73",
-    "name": "Holofoil King Sprite",
+    "name": "Holofoil King",
     "family": "King",
     "variant": "holofoil",
     "rarity": "special",
     "chancePercent": 0,
     "isStarter": false,
     "image": "assets/sprites/73.webp"
+  },
+  {
+    "id": "109",
+    "name": "Cube King",
+    "family": "King",
+    "variant": "cube",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/109.webp"
+  },
+  {
+    "id": "110",
+    "name": "Quack King",
+    "family": "King",
+    "variant": "quack",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/110.webp"
+  },
+  {
+    "id": "148",
+    "name": "Pollo",
+    "family": "CompanyStargazer",
+    "variant": "base",
+    "rarity": "mythic",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/148.webp"
+  },
+  {
+    "id": "149",
+    "name": "Vini Jr.",
+    "family": "CokeParmesan",
+    "variant": "base",
+    "rarity": "mythic",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/149.webp"
   },
   {
     "id": "41",
@@ -451,7 +831,7 @@
   },
   {
     "id": "33",
-    "name": "Zero Point Sprite",
+    "name": "Zero Point",
     "family": "ZeroPoint",
     "variant": "base",
     "rarity": "mythic",
@@ -461,7 +841,7 @@
   },
   {
     "id": "36",
-    "name": "Gold Zero Point Sprite",
+    "name": "Gold Zero Point",
     "family": "ZeroPoint",
     "variant": "gold",
     "rarity": "special",
@@ -471,7 +851,7 @@
   },
   {
     "id": "34",
-    "name": "Gummy Zero Point Sprite",
+    "name": "Gummy Zero Point",
     "family": "ZeroPoint",
     "variant": "candy",
     "rarity": "special",
@@ -481,7 +861,7 @@
   },
   {
     "id": "35",
-    "name": "Galaxy Zero Point Sprite",
+    "name": "Galaxy Zero Point",
     "family": "ZeroPoint",
     "variant": "galaxy",
     "rarity": "special",
@@ -491,7 +871,7 @@
   },
   {
     "id": "82",
-    "name": "Gem Zero Point Sprite",
+    "name": "Gem Zero Point",
     "family": "ZeroPoint",
     "variant": "gem",
     "rarity": "special",
@@ -500,8 +880,38 @@
     "image": "assets/sprites/82.webp"
   },
   {
+    "id": "111",
+    "name": "Holofoil Zero Point",
+    "family": "ZeroPoint",
+    "variant": "holofoil",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/111.webp"
+  },
+  {
+    "id": "112",
+    "name": "Cube Zero Point",
+    "family": "ZeroPoint",
+    "variant": "cube",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/112.webp"
+  },
+  {
+    "id": "113",
+    "name": "Quack Zero Point",
+    "family": "ZeroPoint",
+    "variant": "quack",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/113.webp"
+  },
+  {
     "id": "58",
-    "name": "Fishy Sprite",
+    "name": "Fishy",
     "family": "Fishy",
     "variant": "base",
     "rarity": "rare",
@@ -511,7 +921,7 @@
   },
   {
     "id": "61",
-    "name": "Gold Fishy Sprite",
+    "name": "Gold Fishy",
     "family": "Fishy",
     "variant": "gold",
     "rarity": "special",
@@ -521,7 +931,7 @@
   },
   {
     "id": "59",
-    "name": "Gummy Fishy Sprite",
+    "name": "Gummy Fishy",
     "family": "Fishy",
     "variant": "candy",
     "rarity": "special",
@@ -531,7 +941,7 @@
   },
   {
     "id": "60",
-    "name": "Galaxy Fishy Sprite",
+    "name": "Galaxy Fishy",
     "family": "Fishy",
     "variant": "galaxy",
     "rarity": "special",
@@ -540,8 +950,48 @@
     "image": "assets/sprites/60.webp"
   },
   {
+    "id": "114",
+    "name": "Gem Fishy",
+    "family": "Fishy",
+    "variant": "gem",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/114.webp"
+  },
+  {
+    "id": "115",
+    "name": "Holofoil Fishy",
+    "family": "Fishy",
+    "variant": "holofoil",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/115.webp"
+  },
+  {
+    "id": "116",
+    "name": "Cube Fishy",
+    "family": "Fishy",
+    "variant": "cube",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/116.webp"
+  },
+  {
+    "id": "117",
+    "name": "Quack Fishy",
+    "family": "Fishy",
+    "variant": "quack",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/117.webp"
+  },
+  {
     "id": "62",
-    "name": "Striker Sprite",
+    "name": "Striker",
     "family": "Soccer",
     "variant": "base",
     "rarity": "epic",
@@ -551,7 +1001,7 @@
   },
   {
     "id": "65",
-    "name": "Gold Striker Sprite",
+    "name": "Gold Striker",
     "family": "Soccer",
     "variant": "gold",
     "rarity": "special",
@@ -561,7 +1011,7 @@
   },
   {
     "id": "63",
-    "name": "Gummy Striker Sprite",
+    "name": "Gummy Striker",
     "family": "Soccer",
     "variant": "candy",
     "rarity": "special",
@@ -571,7 +1021,7 @@
   },
   {
     "id": "64",
-    "name": "Galaxy Striker Sprite",
+    "name": "Galaxy Striker",
     "family": "Soccer",
     "variant": "galaxy",
     "rarity": "special",
@@ -580,8 +1030,18 @@
     "image": "assets/sprites/64.webp"
   },
   {
+    "id": "118",
+    "name": "Gem Striker",
+    "family": "Soccer",
+    "variant": "gem",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/118.webp"
+  },
+  {
     "id": "66",
-    "name": "Holofoil Striker Sprite",
+    "name": "Holofoil Striker",
     "family": "Soccer",
     "variant": "holofoil",
     "rarity": "special",
@@ -590,8 +1050,28 @@
     "image": "assets/sprites/66.webp"
   },
   {
+    "id": "119",
+    "name": "Cube Striker",
+    "family": "Soccer",
+    "variant": "cube",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/119.webp"
+  },
+  {
+    "id": "120",
+    "name": "Quack Striker",
+    "family": "Soccer",
+    "variant": "quack",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/120.webp"
+  },
+  {
     "id": "67",
-    "name": "Aura Sprite",
+    "name": "Aura",
     "family": "Drifter",
     "variant": "base",
     "rarity": "epic",
@@ -601,7 +1081,7 @@
   },
   {
     "id": "71",
-    "name": "Gold Aura Sprite",
+    "name": "Gold Aura",
     "family": "Drifter",
     "variant": "gold",
     "rarity": "special",
@@ -611,7 +1091,7 @@
   },
   {
     "id": "68",
-    "name": "Gummy Aura Sprite",
+    "name": "Gummy Aura",
     "family": "Drifter",
     "variant": "candy",
     "rarity": "special",
@@ -621,7 +1101,7 @@
   },
   {
     "id": "69",
-    "name": "Galaxy Aura Sprite",
+    "name": "Galaxy Aura",
     "family": "Drifter",
     "variant": "galaxy",
     "rarity": "special",
@@ -631,7 +1111,7 @@
   },
   {
     "id": "70",
-    "name": "Gem Aura Sprite",
+    "name": "Gem Aura",
     "family": "Drifter",
     "variant": "gem",
     "rarity": "special",
@@ -640,8 +1120,38 @@
     "image": "assets/sprites/70.webp"
   },
   {
+    "id": "121",
+    "name": "Holofoil Aura",
+    "family": "Drifter",
+    "variant": "holofoil",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/121.webp"
+  },
+  {
+    "id": "122",
+    "name": "Cube Aura",
+    "family": "Drifter",
+    "variant": "cube",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/122.webp"
+  },
+  {
+    "id": "123",
+    "name": "Quack Aura",
+    "family": "Drifter",
+    "variant": "quack",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/123.webp"
+  },
+  {
     "id": "49",
-    "name": "Boss Sprite",
+    "name": "Boss",
     "family": "Boss",
     "variant": "base",
     "rarity": "legendary",
@@ -651,7 +1161,7 @@
   },
   {
     "id": "50",
-    "name": "Gold Boss Sprite",
+    "name": "Gold Boss",
     "family": "Boss",
     "variant": "gold",
     "rarity": "special",
@@ -661,7 +1171,7 @@
   },
   {
     "id": "51",
-    "name": "Gummy Boss Sprite",
+    "name": "Gummy Boss",
     "family": "Boss",
     "variant": "candy",
     "rarity": "special",
@@ -671,7 +1181,7 @@
   },
   {
     "id": "52",
-    "name": "Galaxy Boss Sprite",
+    "name": "Galaxy Boss",
     "family": "Boss",
     "variant": "galaxy",
     "rarity": "special",
@@ -680,8 +1190,48 @@
     "image": "assets/sprites/52.webp"
   },
   {
+    "id": "124",
+    "name": "Gem Boss",
+    "family": "Boss",
+    "variant": "gem",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/124.webp"
+  },
+  {
+    "id": "125",
+    "name": "Holofoil Boss",
+    "family": "Boss",
+    "variant": "holofoil",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/125.webp"
+  },
+  {
+    "id": "126",
+    "name": "Cube Boss",
+    "family": "Boss",
+    "variant": "cube",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/126.webp"
+  },
+  {
+    "id": "127",
+    "name": "Quack Boss",
+    "family": "Boss",
+    "variant": "quack",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/127.webp"
+  },
+  {
     "id": "78",
-    "name": "Grim Sprite",
+    "name": "Grim",
     "family": "Grim",
     "variant": "base",
     "rarity": "mythic",
@@ -691,7 +1241,7 @@
   },
   {
     "id": "81",
-    "name": "Gold Grim Sprite",
+    "name": "Gold Grim",
     "family": "Grim",
     "variant": "gold",
     "rarity": "special",
@@ -701,7 +1251,7 @@
   },
   {
     "id": "79",
-    "name": "Gummy Grim Sprite",
+    "name": "Gummy Grim",
     "family": "Grim",
     "variant": "candy",
     "rarity": "special",
@@ -711,7 +1261,7 @@
   },
   {
     "id": "80",
-    "name": "Galaxy Grim Sprite",
+    "name": "Galaxy Grim",
     "family": "Grim",
     "variant": "galaxy",
     "rarity": "special",
@@ -720,8 +1270,48 @@
     "image": "assets/sprites/80.webp"
   },
   {
+    "id": "128",
+    "name": "Gem Grim",
+    "family": "Grim",
+    "variant": "gem",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/128.webp"
+  },
+  {
+    "id": "129",
+    "name": "Holofoil Grim",
+    "family": "Grim",
+    "variant": "holofoil",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/129.webp"
+  },
+  {
+    "id": "130",
+    "name": "Cube Grim",
+    "family": "Grim",
+    "variant": "cube",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/130.webp"
+  },
+  {
+    "id": "131",
+    "name": "Quack Grim",
+    "family": "Grim",
+    "variant": "quack",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/131.webp"
+  },
+  {
     "id": "74",
-    "name": "Air Sprite",
+    "name": "Air",
     "family": "Air",
     "variant": "base",
     "rarity": "rare",
@@ -731,7 +1321,7 @@
   },
   {
     "id": "42",
-    "name": "Gold Air Sprite",
+    "name": "Gold Air",
     "family": "Air",
     "variant": "gold",
     "rarity": "special",
@@ -741,7 +1331,7 @@
   },
   {
     "id": "72",
-    "name": "Gummy Air Sprite",
+    "name": "Gummy Air",
     "family": "Air",
     "variant": "candy",
     "rarity": "special",
@@ -751,7 +1341,7 @@
   },
   {
     "id": "75",
-    "name": "Galaxy Air Sprite",
+    "name": "Galaxy Air",
     "family": "Air",
     "variant": "galaxy",
     "rarity": "special",
@@ -760,8 +1350,18 @@
     "image": "assets/sprites/75.webp"
   },
   {
+    "id": "132",
+    "name": "Gem Air",
+    "family": "Air",
+    "variant": "gem",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/132.webp"
+  },
+  {
     "id": "77",
-    "name": "Holofoil Air Sprite",
+    "name": "Holofoil Air",
     "family": "Air",
     "variant": "holofoil",
     "rarity": "special",
@@ -770,8 +1370,28 @@
     "image": "assets/sprites/77.webp"
   },
   {
+    "id": "133",
+    "name": "Cube Air",
+    "family": "Air",
+    "variant": "cube",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/133.webp"
+  },
+  {
+    "id": "134",
+    "name": "Quack Air",
+    "family": "Air",
+    "variant": "quack",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/134.webp"
+  },
+  {
     "id": "53",
-    "name": "Seven Sprite",
+    "name": "Seven",
     "family": "Seven",
     "variant": "base",
     "rarity": "legendary",
@@ -781,7 +1401,7 @@
   },
   {
     "id": "56",
-    "name": "Gold Seven Sprite",
+    "name": "Gold Seven",
     "family": "Seven",
     "variant": "gold",
     "rarity": "special",
@@ -791,7 +1411,7 @@
   },
   {
     "id": "54",
-    "name": "Gummy Seven Sprite",
+    "name": "Gummy Seven",
     "family": "Seven",
     "variant": "candy",
     "rarity": "special",
@@ -801,7 +1421,7 @@
   },
   {
     "id": "55",
-    "name": "Galaxy Seven Sprite",
+    "name": "Galaxy Seven",
     "family": "Seven",
     "variant": "galaxy",
     "rarity": "special",
@@ -810,13 +1430,53 @@
     "image": "assets/sprites/55.webp"
   },
   {
+    "id": "135",
+    "name": "Gem Seven",
+    "family": "Seven",
+    "variant": "gem",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/135.webp"
+  },
+  {
     "id": "57",
-    "name": "Holofoil Seven Sprite",
+    "name": "Holofoil Seven",
     "family": "Seven",
     "variant": "holofoil",
     "rarity": "special",
     "chancePercent": 0,
     "isStarter": false,
     "image": "assets/sprites/57.webp"
+  },
+  {
+    "id": "136",
+    "name": "Cube Seven",
+    "family": "Seven",
+    "variant": "cube",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/136.webp"
+  },
+  {
+    "id": "137",
+    "name": "Quack Seven",
+    "family": "Seven",
+    "variant": "quack",
+    "rarity": "special",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/137.webp"
+  },
+  {
+    "id": "138",
+    "name": "John Wick",
+    "family": "John Wick",
+    "variant": "base",
+    "rarity": "mythic",
+    "chancePercent": 0,
+    "isStarter": false,
+    "image": "assets/sprites/138.webp"
   }
 ]
